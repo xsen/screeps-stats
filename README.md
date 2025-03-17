@@ -11,3 +11,8 @@ Statistics service for the Creeps game using Grafana and Prometheus
  - Open Dashboard in [Grafana](http://localhost:3001) 
  - [Prometheus](http://localhost:9090) datasource
  - Check [metrics](http://localhost:3000/metrics)
+
+
+<p align="center">
+	<img alt="sample" src="sample.png"/>
+</p>

@@ -96,7 +96,7 @@ function updateMetrics(stats: GameStats): void {
   gclProgressTotalGauge.set(stats.gcl.progressTotal);
 }
 
-cron.schedule("*/5 * * * *", () => {
+cron.schedule("* * * * *", () => {
   console.log("Fetching memory segment...");
   fetchMemorySegment();
 });
