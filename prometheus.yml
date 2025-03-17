@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'screeps-stats'
+    static_configs:
+      - targets: ['screeps-stats:3000']
